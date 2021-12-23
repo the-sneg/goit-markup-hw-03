@@ -91,6 +91,18 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+.team-card {
+  /* position: absolute; */
+  width: 270px;
+  height: 368px;
+  /* left: 515px;
+  top: 1635px; */
+  background: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 /* PORTFOLIO */
 
 .filter-button {
@@ -124,6 +136,34 @@ body {
   color: var(--white-color);
 }
 
+.example-card {
+  /* position: absolute; */
+  width: 370px;
+  height: 404px;
+  /* left: 215px;
+top: 262px; */
+
+  background: var(--white-color);
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.example-cards h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.example-cards p {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* HEADER */
 .logo {
   color: var(--accent-color);
   font-family: Raleway;
@@ -135,6 +175,10 @@ body {
 
 .logo-black {
   color: var(--logo-black-color);
+}
+
+.site-nav .selected {
+  color: var(--accent-color);
 }
 
 .site-nav > li > a {
@@ -175,7 +219,6 @@ body {
 }
 
 .site-contacts a {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -185,7 +228,6 @@ body {
 
 .mail:focus,
 .mail:hover {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -195,13 +237,13 @@ body {
 
 .tel:focus,
 .tel:hover {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
   color: var(--accent-color);
 }
+/* FOOTER */
 .page-footer {
   background-color: var(--first-bg-color);
 }
@@ -240,47 +282,4 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-}
-
-.site-nav .selected {
-  color: var(--accent-color);
-}
-
-.team-card {
-  /* position: absolute; */
-  width: 270px;
-  height: 368px;
-  /* left: 515px;
-  top: 1635px; */
-  background: var(--white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.example-card {
-  /* position: absolute; */
-  width: 370px;
-  height: 404px;
-  /* left: 215px;
-top: 262px; */
-
-  background: var(--white-color);
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-
-.example-cards h2 {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--title-text-color);
-}
-
-.example-cards p {
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
