@@ -108,7 +108,8 @@ body {
   color: var(--title-text-color);
 }
 
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
   cursor: pointer;
   background-color: var(--accent-color);
   padding: 10px 32px;
