@@ -112,7 +112,6 @@ body {
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -128,7 +127,6 @@ body {
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -192,7 +190,6 @@ top: 262px; */
 .studio:focus,
 .studio:hover {
   color: var(--accent-color);
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -202,7 +199,6 @@ top: 262px; */
 .portfolio:focus,
 .portfolio:hover {
   color: var(--accent-color);
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -211,7 +207,6 @@ top: 262px; */
 .contacts:focus,
 .contacts:hover {
   color: var(--accent-color);
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
